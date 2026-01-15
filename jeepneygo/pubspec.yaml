@@ -1,0 +1,16 @@
+name: jeepneygo_workspace
+description: JeepneyGo monorepo workspace - Real-time jeepney transport monitoring system for Lipa City
+
+# This is a workspace root - no publishable package here
+publish_to: 'none'
+
+environment:
+  sdk: ^3.8.0
+
+# Melos is used for monorepo management
+# Run `dart pub global activate melos` to install
+# Then run `melos bootstrap` to link all packages
+
+dev_dependencies:
+  melos: ^7.0.0
+  lints: ^5.0.0

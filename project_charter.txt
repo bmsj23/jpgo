@@ -1,0 +1,156 @@
+Executive Summary
+
+Lipa City is classified as a first-class city that is located in Batangas. As the city continues to prosper and grow as the time passes, the continuous growth of the city develops various issues such as the traffic flow which has evidently been a major problem that the citizens of Lipa have been experiencing for a long time. This is contributed by the over-reliance of personal vehicles by the people, which creates a demand for greater road capacity. Due to this, It contributes to a high demand of greater road capacity that leads to congestion making traffic flow slower than usual. Currently, passengers rely solely on guesswork or word-of-mouth for jeepney arrivals, often leading to overcrowding at stops and inefficient trip planning. Jeepney operators also struggle with route monitoring and traffic coordination, resulting in inefficiencies and income loss.
+
+The project intends to address these issues by developing JeepneyGo, a real-time transportation system that improves the commuting and driving experience by  minimizing delays, reducing travel related stress, and enhancing safety.
+
+
+Project Purpose / Justification
+
+The JeepneyGo project is being launched to address the critical problem of inefficiency and unpredictability within Lipa City's public jeepney system, which causes long wait times for commuters and operational challenges for jeepney drivers. Our primary goal is to modernize this essential service by developing and implementing a real-time mobile application for passenger information and real-time jeepney tracking. This directly supports Lipa City's organizational objective of becoming a "smart city" by introducing modern technology into its public transportation infrastructure. The key benefits will include  a more reliable and stress-free commute experience for the commuters, improved route efficiency and coordination for jeepney drivers, and an overall reduction in traffic congestion, creating a more sustainable and accessible urban environment for all stakeholders.
+
+Business Need / Case
+
+Public transportation in Lipa City remains heavily dependent on jeepneys, yet many of the commuters still face a number of challenges in their transportation experiences This project is set to prevent further uncertainty of jeepney arrival times, causing long waiting periods, traffic congestion due to inefficient route coordination, and a limited use of technology in the public utility sector, leaving commuters without reliable updates. A mobile-based system such as JeepneyGo directly addresses these problems by introducing a digital solution for transparency, efficiency, and commuter satisfaction, ultimately aligning with the city’s growing demand for smarter and more sustainable transport services.
+
+
+Business Objectives
+
+The business objective of this project is to provide a more friendly urban mobility and support transportation planning by addressing traffic congestion and promoting efficient public transportation systems. This aims for an innovative solution through the use of technology.
+
+Implement real-time jeepney tracking system to provide commuters with accurate and timely updates.
+
+Identify and display efficient travel routes to help both drivers and passengers optimize their trips.
+Collecting data to aid in urban planning and decision-making for the city.
+
+Reduction of traffic congestion by improving route management and trip coordination.
+
+Promoting the use of public transportation by making jeepney travel more reliable, convenient, and commuter-friendly.
+
+
+Project Description
+
+The JeepneyGo mobile application is designed to provide real-time guidance on the most efficient and fastest routes for both commuters and drivers in Lipa City. This project intends to introduce a new innovative system which includes real-time GPS-based tracking, route optimization, and commuter safety features to further improve the transportation system in Lipa City. This will ensure that JeepneyGo operates seamlessly across commuters, drivers, operators, contributing toward SDG goals related to innovation, sustainable cities, partnerships, and public health.
+
+
+Project Objectives and Success Criteria
+In order to achieve success of the JeepneyGo Project, the following objectives must be met within the designated time and allocated budget :
+
+Implement a real-time jeepney tracking system that provides commuters with accurate location and arrival updates within 2 months of project initiation.
+Identify and display efficient travel routes to improve navigation for both drivers and passengers, ensuring coverage of major jeepney routes in central Lipa within the first 2 months.
+Collect and analyze mobility data to support urban planning and policy development, with periodic reports generated starting from Month 9.
+Contribute to the reduction of traffic congestion through improved route management and trip coordination by the end of Year 1.
+Promote the use of public transportation by launching awareness and adoption campaigns during the last quarter of implementation, ensuring at least 50% commuter engagement in the pilot phase.
+
+Requirements
+
+The fully functional and operational JeepneyGo Mobile Application for Android devices will be built and deployed to provide the following capabilities:
+View real-time jeepney locations on a digital map.
+View estimated arrival times (ETA) of jeepneys at designated stops.
+View seat availability in real-time to avoid overcrowding.
+Identify and display the most efficient and fastest travel routes.
+Provide fare estimates based on distance and route.
+Track live traffic conditions affecting jeepney routes.
+Receive notifications on approaching jeepneys along selected routes.
+View route information, including jeepney terminals and key stops.
+Collect and store commuter travel data for future analysis.
+Generate usage reports for jeepney operators and transport authorities.
+Provide safety alerts and system updates to commuters.
+Support advertisements or public advisories relevant to transportation.
+
+The fully-functional and operational JeepneyGo Application for Android smart phones will be built and deployed based on a publicly-tested prototype.
+
+The test and acceptance criteria for the prototype and fully-functional / operational JeepneyGo Application must be developed with close collaboration with, and discussed by, the project’s developing group along with the test of applicable clients.
+
+Constraints
+
+Hardware Limitations: Depends on mobile devices with GPS and stable internet connections. Inconsistent GPS signals or poor network coverage in some areas of Lipa City may affect real-time tracking accuracy.
+
+Operational Limitations: Initially only operate only during normal commuting hours (e.g., 5 AM to 10 PM) unless future updates extend this range.
+
+Training Requirements: Some drivers or operators may not be familiar with smartphones or apps, requiring basic digital literacy training for effective “JeepneyGo: Real-Time Transporting System.” adoption.
+
+Third-party Dependency Risks: Heavy reliance on third-party services (Google Maps, Firebase) introduces a risk if these services change terms, become unavailable, or increase pricing.
+
+Emergency Situations: In emergencies (network outages, device malfunctions, etc.), fallback protocols must be considered, such as manual driver reporting via SMS.
+
+Assumptions
+
+Stable Internet Connectivity: It is assumed that commuters, drivers, and the embedded GPS tracker will have access to stable mobile data or wi-fi for real time location updates and communication.
+
+Availability of GPS Signal: The JeepneyGo: Real-Time Transport Monitoring System assumes that GPS signals are reliably available in most parts of Lipa city.
+User WIllingness and Participation: The system’s success assumes cooperation from jeepney drivers to install GPS trackers and keep them active during operation.
+
+Third Party API Reliability: Google Maps API, Firebase services, and any SMS gateway APIs used are assumed to be stable and available with minimal downtime.
+
+Consistent Power Supply for Hardware Modules: The tracking hardware will have access to continuous power via a reliable rechargeable power source, even when the jeepney is off.
+
+
+Preliminary Scope Statement
+
+Develop and deploy a mobile application (Android) that provides real-time jeepney tracking, estimated arrival times, and seat availability.
+
+Install GPS tracking devices on a jeepney during the pilot phase.
+Create a web-based operator dashboard for monitoring routes, fleet performance, and commuter data analytics.
+
+Integrate intelligent route optimization and live traffic analysis to improve navigation efficiency.
+
+Provide fare estimates, route information, and key stop locations within the application.
+
+Generate mobility and commuter reports to support urban planning and transport policy decisions.
+
+Conduct pilot testing in central jeepney routes of Lipa City (e.g., SM Lipa to Downtown areas).
+
+Deliver training materials and documentation for commuters, drivers, and operators.
+
+Ensure data security and compliance with the Data Privacy Act of 2012 throughout system operations.
+
+
+Project Deliverables
+
+Upon successful completion, the JeepneyGo project will deliver the following key software, hardware, and documentation components:
+
+A fully functional JeepneyGo Mobile Application which provides a tailored user experience for commuters and drivers utilizing Android smartphones
+A web-based admin dashboard for user management, vehicle and route management, analytics, and incident logs
+A GPS-tracking hardware designed to track each jeepney units
+Documentations including user, driver, and admin manuals, as well as the hardware installation manual
+
+Summary Milestone Schedule
+
+Project Milestone
+Milestone Date (Week No)
+Project Start
+01 December 2025 (1)
+Planning & Preparation Completion
+12 December 2025 (2)
+UI/UX Design & Prototyping Completion
+09 January 2026 (6)
+Core App & Dashboard Development Completion
+06 March 2026 (14)
+System Testing & Pilot Program Launch
+13 March 2026 (15)
+Project Completion
+20 March 2026 (16)
+
+
+
+Summary Budget
+
+Project Component
+Budget
+Hardware
+₱6,000.00
+Software and Licensing
+₱3,000.00
+Total
+₱9,000.00
+Contingency (20%)
+₱2,000.00
+Budget Total
+₱11,000.00
+
+
+
+Project Approval Requirements
+
+Success for the JeepneyGo project will be achieved when a fully-tested, fully- functional and operational JeepneyGo GPS Hardware, JeepneyGo Application for smart phones, and a web-based admin dashboard has been deployed and operational within the time and constraints of this project. Success will be based on the agreed-upon test and acceptance criteria developed with and approved by the project’s technical committee.

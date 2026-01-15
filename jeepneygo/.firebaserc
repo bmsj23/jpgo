@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "jeepneygo-lipa"
+  },
+  "targets": {
+    "jeepneygo-lipa": {
+      "hosting": {
+        "driver": ["jeepneygo-driver"],
+        "commuter": ["jeepneygo-commuter"],
+        "admin": ["jeepneygo-admin"]
+      }
+    }
+  }
+}

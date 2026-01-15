@@ -1,0 +1,42 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // users collection - users can only read/write their own document
+    match /users/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // vehicles collection - drivers can manage their vehicles, others can read
+    match /vehicles/{vehicleId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null && request.resource.data.driverId == request.auth.uid;
+      allow update, delete: if request.auth != null && resource.data.driverId == request.auth.uid;
+    }
+    
+    // routes collection - public read, admin write
+    match /routes/{routeId} {
+      allow read: if true;
+      allow write: if request.auth != null && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+    
+    // stops collection - public read, admin write
+    match /stops/{stopId} {
+      allow read: if true;
+      allow write: if request.auth != null && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+    
+    // active trips - drivers can manage their trips, commuters can read
+    match /active_trips/{tripId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null && request.resource.data.driverId == request.auth.uid;
+      allow update, delete: if request.auth != null && resource.data.driverId == request.auth.uid;
+    }
+    
+    // trip history - authenticated users can read, drivers can create
+    match /trip_history/{tripId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+    }
+  }
+}
