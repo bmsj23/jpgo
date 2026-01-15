@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "365633927642",
+    "project_id": "jeepneygo-d3118",
+    "storage_bucket": "jeepneygo-d3118.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365633927642:android:6aa20d72015b7e7bf0e8e3",
+        "android_client_info": {
+          "package_name": "com.jeepneygo.commuter_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDreef8wnGuD5A5sdVZPrHcvaBixipqVd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365633927642:android:fdce8280692b6a9cf0e8e3",
+        "android_client_info": {
+          "package_name": "com.jeepneygo.driver_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDreef8wnGuD5A5sdVZPrHcvaBixipqVd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
